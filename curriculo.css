@@ -1,8 +1,18 @@
+*{
+    font-family: cursive;
+    color: aliceblue;
+}
 body{
-    background-image: url(1ccb1d9fdac43ca4001afce9d73e9076.jpg);
+    background-image:url(7100112.jpg) ;
+    background-size: cover;
     
     
     
+}
+.blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 .titulo{
     text-align: center;
@@ -10,7 +20,7 @@ body{
     border: solid 2px;
     border-color: rgb(198,198,198);
 display: inline-block;
-margin-left: 22%;
+
 
 font-size: 200%;
 }
@@ -22,14 +32,13 @@ border: solid 3px;
 border-color: aliceblue;
 }
 .dados_pessoais{
-    margin-top: 6%;
-    color: aliceblue;
+     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%;
     
 }
 .historico_escolar{
-    margin-top: 6%;
+    
     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%;
@@ -37,24 +46,21 @@ border-color: aliceblue;
 }
 
 .atividades_curriculares{
-    margin-top: 7%;
-    color: aliceblue;
+     color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%; 
     display: inline-block;
 }
 .atividades_extra-curriculares{
-    margin-bottom: 10%;
-    margin-left: 10%;
-    color: aliceblue;
+    
+       color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%; 
     display: inline-block;
 }
 
 .trabalhos{
-    margin-bottom: 6%;
-    color: aliceblue;
+        color: aliceblue;
     font-family: 'Courier New', Courier, monospace;
     font-size: 130%;
 }
