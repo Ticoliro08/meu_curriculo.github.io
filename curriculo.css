@@ -3,8 +3,9 @@
     color: aliceblue;
 }
 body{
-    background-image:url(7100112.jpg) ;
-    background-size: cover;
+    background-image:url(img/background.jpg) ;
+   background-size: cover;
+    animation: fundomechendo 50s infinite linear;
     
     
     
